@@ -1,0 +1,81 @@
+body{
+    background-color: #504a4b;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.tabuleiro{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    align-items: center;
+}
+
+ 
+.linha{
+    display: flex;
+    gap: 5px;
+}
+
+  
+.letra{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #3a3a3c;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    font-size: 32px;
+    text-transform: uppercase;
+    background-color: #504a4b;
+    color: white;
+    border-radius: 8px;
+}
+
+  
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #312a2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes button {
+    background-color: #2d2424;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    margin: 3px;
+    font-size: 20px;
+    width: 60px;
+    height: 58px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botoes img{
+    width: 10px;
+    height: 24px;
+
+}
+
+button #enter{
+    width: 45px;
+    text-align: center;
+    height: 24px;
+}
+
+
+
